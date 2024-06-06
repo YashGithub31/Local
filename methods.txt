@@ -1,0 +1,33 @@
+Certainly! Here's a brief explanation of the methods used in the code:
+
+1. `Date()`: Constructor of `java.util.Date` class, creates a new instance representing the current date and time.
+
+2. `toInstant()`: Converts a `java.util.Date` object to an `Instant`.
+
+3. `atZone(ZoneId)`: Converts the `Instant` to a `ZonedDateTime` at the specified time zone.
+
+4. `toLocalDate()`: Converts a `ZonedDateTime` to a `LocalDate`.
+
+5. `getTime()`: Returns the number of milliseconds since January 1, 1970, 00:00:00 GMT.
+
+6. `java.sql.Date(long)`: Constructor of `java.sql.Date` class, creates a new instance with the specified milliseconds.
+
+7. `now()`: Static method of `LocalDate` class, returns the current date.
+
+8. `atStartOfDay(ZoneId)`: Combines the `LocalDate` with the start of the day at the specified time zone.
+
+9. `toInstant()`: Converts a `LocalDateTime` to an `Instant`.
+
+10. `from(Instant)`: Static method of `Date` class, creates a new `Date` instance from the given `Instant`.
+
+11. `valueOf(LocalDate)`: Static method of `java.sql.Date` class, creates a new `java.sql.Date` instance from the given `LocalDate`.
+
+12. `plusDays(long)`: Adds the specified number of days to the `LocalDate`.
+
+13. `until(LocalDate)`: Calculates the period between two `LocalDate` instances.
+
+14. `getDays()`, `getMonths()`, `getYears()`: Methods of `Period` class, retrieve the respective components of the period.
+
+15. `SimpleDateFormat(String)`: Constructor of `SimpleDateFormat` class, creates a new instance with the specified date format pattern.
+
+16. `format(Date)`: Formats the given `Date` according to the format pattern and returns the formatted string.
